@@ -1,0 +1,19 @@
+/* shortcuts.shareyourgroup.com */
+kbd{display:inline-block;min-width:1.7em;text-align:center;font:600 .84rem var(--mono);padding:2px 7px;border:1px solid var(--field-line);border-bottom-width:2px;border-radius:6px;background:var(--surface2);color:var(--ink);white-space:nowrap}
+.or{color:var(--soft);font-size:.82rem}
+table.keys td{vertical-align:middle;padding:8px 12px}
+table.keys td:first-child,table.keys.three td:nth-child(2){white-space:nowrap}
+.kt{margin:8px 0 20px}
+.sc code{font:500 .92em var(--mono);background:var(--surface2);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+.meta{color:var(--soft);font-size:.9rem;margin:0 0 6px}.meta a{color:var(--soft)}
+.ln{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;margin:22px 0 10px}.ln .btn{flex:1 1 220px;text-align:center}
+.ind{border-top:1px solid var(--line);padding-top:12px;margin-top:22px}
+.grid a span{min-width:0}
+[data-sres] ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:6px}
+[data-sres] li{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+[data-sres] li b{flex:1 1 200px;font-weight:600}[data-sres] li small{color:var(--soft)}[data-sres] li a{font-size:.86rem}
+@media (max-width:640px){table.keys td:first-child,table.keys.three td:nth-child(2){white-space:normal}
+ table.keys.three thead{position:absolute;left:-9999px}table.keys.three tr{display:block;padding:8px 10px;border-bottom:1px solid var(--line)}
+ table.keys.three td{display:block;padding:2px 0;border:0}table.keys.three td[data-l]::before{content:attr(data-l) ": ";color:var(--soft);font-size:.8rem}
+ table.keys.three td:last-child{font-weight:600;margin-top:2px}}
+@media print{.finder,.ln,.ind,.meta{display:none!important}.sc{max-width:none;columns:2;column-gap:24px;font-size:10pt}.sc h1{column-span:all}.kt{border:0;break-inside:avoid}table.keys td{padding:2px 6px;font-size:9pt}kbd{border:1px solid #777;background:#fff;color:#000;font-size:8pt;padding:0 4px}.sc p,.sc ul,.sc ol{display:none}.sc h2{font-size:11pt;margin:.6em 0 .2em;break-after:avoid}}
